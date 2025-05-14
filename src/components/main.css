@@ -1,0 +1,82 @@
+.heading {
+    padding: 20px;
+    width: 100vw;
+    height: 6%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(168, 166, 166) -2px -2px 8px 2px;
+    position: relative;
+    z-index: 1;
+}
+
+
+#home{
+    margin-top:15px;
+}
+.links{
+    text-decoration: none;
+    padding:8px;
+    margin:8px 10px 2px 10px ;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: black;
+    
+
+}
+
+.links:hover{
+    background-color: #f0f8ff;
+    color: #8a2be2;
+}
+.ilogo {
+    width: 260px;
+    
+    
+}
+
+.ilogo:hover {
+    transform: scale(1.03);
+    transition: ease-in-out 0.25s;
+}
+
+.h3{
+    letter-spacing: 0.25rem;
+}
+.search {
+    padding: 10px;
+    border: 1px solid rgba(67, 65, 65, 0.518) ;
+    border-radius: 30px;
+    width: 150px;
+    margin-right: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.search:focus {
+  width: 200px; 
+  outline: 1.5px solid rgb(16, 16, 216);
+  border: 1px solid rgb(16, 16, 216);}
+
+
+.content{
+    display:flex;
+    width:100vw;
+    height:94%;
+    background-color: #f9f9f9;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    height:100%;
+    width:20vw;
+    background-color:white;
+}
+.body {
+  flex: 1;
+  overflow-y: auto;
+}
+

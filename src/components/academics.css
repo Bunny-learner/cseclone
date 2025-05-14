@@ -1,0 +1,285 @@
+
+  .academics-container {
+    padding:0px 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+  }
+.academics-container h2{
+    font-size: 30px;
+}
+  .academics-description {
+    color: #555;
+  }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .card:hover{
+     background-color: #f0f8ff;;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-title {
+    margin-top: 0;
+  }
+
+  .card-details {
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+
+
+   .timetable-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(181, 178, 178);
+  }
+
+  
+
+  .semester-schedule{
+    margin-bottom: 15px;
+
+  }
+
+
+
+  .schedule-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  .schedule{
+     border:1px solid white;
+  border-radius: 5px;
+  padding:10px;
+  background-color: white;
+  margin-bottom: 25px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.08);
+  }
+  .pdf-viewer-info {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+
+  .pdf-viewer-placeholder {
+    background-color: #222;
+    color: #eee; 
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px; 
+  }
+
+#btech{
+    font-size: 25px;
+}
+
+  
+
+  .courses-section {
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    
+  }
+
+  .courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  .core-courses, .elective-courses {
+    background-color: #f9f9f9;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    
+  }
+
+  .courses-section h2, .core-courses h3, .elective-courses h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .core-courses ul, .elective-courses ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .core-courses li, .elective-courses li {
+    margin-bottom: 15px;
+  }
+
+  .core-courses strong, .elective-courses strong {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .core-courses p, .elective-courses p {
+    margin-top:10px;
+    font-size: 0.75em;
+    color:#777;
+    line-height: 1.4;
+  }
+
+
+
+  
+  .program-structure-section,.rules-section,.freq-section{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    background-color:white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding:15px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+  }
+
+  .program-structure-section h2, .program-structure-section h3, .semester h4 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .year-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .semester-container {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .semester {
+    background-color:whitesmoke;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+  }
+
+  .semester ul {
+    font-size: 16px;
+    padding: 5px;
+
+  }
+
+  .semester li {
+    color: #666;
+    margin-bottom: 8px;
+  }
+
+  .download-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .download-button {
+    background-color: #673ab7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+
+  .download-button:hover {
+    background-color: #512da8;
+  }
+
+
+
+
+
+  .rules-section h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .rules-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .medical-absence-notice {
+    background-color: #fff3cd; 
+    color: #85640c; 
+    padding: 5px;
+    border-left:10px solid #85640c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+  }
+
+  .Integrity li{
+    margin-bottom:10px;
+    font-size: 16px;
+  }
+
+  .warning-icon {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+
+  .grading-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .grading-table th, .grading-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .grading-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+
+  .q strong{
+    display: block;
+    color:black;
+    font-size: 18px;
+    margin-bottom:15px;
+  }
+  #further{
+    background-color:rgb(240, 237, 237);
+  }
+  .q{
+
+    color:#777;
+    padding:10px;
+  }
+  
+  
+
