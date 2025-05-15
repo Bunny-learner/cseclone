@@ -6,7 +6,7 @@ export default function Join() {
 
 
     <section class="join-faculty">
-        <h1>Join as Faculty</h1>
+        <h1 className='helipad'>Join as Faculty</h1>
         <p>Build your academic career at IIT Dharwad's Department of Computer Science and Engineering</p>
     </section>
 
@@ -202,6 +202,43 @@ export default function Join() {
                 <li>Opportunities for interdisciplinary research</li>
             </ul>
         </div>
+    </section>
+    <section className="apply">
+        <h2 className="timetable-title">How To Apply</h2>
+        <ol>
+  <li>Register on the IIT Dharwad faculty recruitment portal.</li>
+  <li>Fill out the online application form with personal, educational, and professional details.</li>
+  <li>Upload the following documents:
+    <ul>
+      <li>Detailed CV with list of publications</li>
+      <li>Research statement (2-3 pages)</li>
+      <li>Teaching statement (1-2 pages)</li>
+      <li>Copies of three best publications</li>
+      <li>Educational certificates and transcripts</li>
+      <li>Contact information of three referees</li>
+    </ul>
+  </li>
+  <li>Submit the completed application.</li>
+  <li>Shortlisted candidates will be invited for a seminar presentation and interview.</li>
+</ol>
+
+<h3>Selection Process</h3>
+<ol className='key-highlights'>
+  <li>Screening of applications based on academic credentials, research contributions, and alignment with department needs.</li>
+  <li>Seminar presentation by shortlisted candidates to showcase research work and future plans.</li>
+  <li>Technical interview with faculty selection committee.</li>
+  <li>Final selection based on overall performance, research potential, and teaching abilities.</li>
+</ol>
+
+<h3>Important Information</h3>
+<ul>
+  <li>Candidates are encouraged to review the department's research areas before applying.</li>
+  <li>For any queries related to the application process, please contact <a href="mailto:faculty.recruitment@iitdh.ac.in">faculty.recruitment@iitdh.ac.in</a>.</li>
+  <li>The institute reserves the right to shortlist candidates based on the needs of the departments/institute.</li>
+</ul>
+<div className="portals">
+    <button className="backtotop">Apply</button>
+</div>
     </section>
 
     </>

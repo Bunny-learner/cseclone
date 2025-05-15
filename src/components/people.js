@@ -1,47 +1,39 @@
 import React from 'react'
 import './people.css'
 export default function People() {
-
-
-  function scrolltotop(){
-    
-    console.log("hello")
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-
-  }
   return (
     <>
-    <div className="people-section">
+    <div id="section0" className="people-section">
        <h2>People</h2>
        <p>Meet the faculty, staff, and former members of the Department of Computer Science and Engineering.</p>
        <br />
      <div className="people-types">
-      <div className="item">
+        <a href="#section1"><div className="item">
         <h3>Department Leadership</h3>
         <p>View Members</p>
-      </div>
-       <div className="item">
+      </div></a>
+      <a href="#section2"><div className="item">
         <h3>Staff</h3>
         <p>View Members</p>
-      </div>
-       <div className="item">
+      </div></a>
+       <a href="#section3"><div className="item">
         <h3>Faculty</h3>
         <p>View Members</p>
-      </div>
-       <div className="item">
+      </div></a>
+       <a href="#section4">
+        <div  className="item">
         <h3>Former Members</h3>
         <p>View Members</p>
       </div>
+       </a>
+       
      </div>
     </div>
 
     <h2  className='timetable-title hen'>Department Leadership</h2>
     <br />
-    <div class="faculty-container">
-      <div class="faculty-card senior">
+    <div id="section1"class="faculty-container">
+      <div  class="faculty-card senior">
             <img src="p.jpg" alt="Dr. Dileep A D"/>
             <h3>Dr. Ramchandra Phawade
 </h3>
@@ -76,7 +68,7 @@ export default function People() {
 
     <h2  className='timetable-title hen'>Faculty Members</h2>
     <br />
-    <div class="faculty-container">
+    <div id="section3" class="faculty-container">
         <div class="faculty-card">
             <img src="anand.jpg" alt="Dr. Gayathri Ananthanarayanan"/>
             <h3>Dr.Konjengbam Anand</h3>
@@ -238,7 +230,7 @@ export default function People() {
      <div className="people-section">
        <h2 className='timetable-title'>Staff</h2>
        <br />
-     <div className="people-types ben10">
+     <div id="section2" className="people-types ben10">
       <div class="faculty-card staff">
             <img src="default.jpeg" alt="Dr. Gayathri Ananthanarayanan"/>
             <h3></h3>
@@ -268,10 +260,26 @@ export default function People() {
             </div>
 
      </div>
+
+     <div className="former" id="section4">
+        <h2 className="timetable-title">Former-members</h2>
+        <br />
+        <div className="formy">
+            <div className="item">
+            <h4>Dr. Prabuchandran K J</h4>
+            <span>Former-Assistant Professor</span>
+        </div>
+        <div className="item">
+            <h4>Dr. Anantha Padmanabha</h4>
+            <span>Former-Assistant Professor</span>
+        </div>
+        </div>
+        
+     </div>
     </div>
 
 <div id="top">
-  <button className='backtotop' onclick={scrolltotop}>Back To top</button>
+  <a className='backtotop' href="#section0">Back To top</a>
 </div>
 
    

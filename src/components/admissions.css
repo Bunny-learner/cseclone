@@ -1,0 +1,71 @@
+.admissions #one{
+    list-style-type:decimal;
+}
+.admissions li{
+    color:#6e6d6d;
+
+}
+
+#three,#four{
+    list-style-type: none;
+
+}
+legend{
+    font-size: 13px;
+    color:grey;
+    display: block;
+}
+#three>li{
+    background-color: white;
+    border:1px solid #ddd;
+    border-radius: 8px;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+#two{
+    list-style-type:none ;
+    display: flex;
+    padding:0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+#two span{
+    color:blue;
+    font-size: 20px;
+}
+.portals a{
+    text-decoration: none;
+    margin:10px;
+}
+
+
+.portals{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+#two {
+    
+    padding:30px;
+    width:220px;
+    background-color: transparent;
+}
+
+.admissions{
+
+    font-family: sans-serif;
+    margin: 20px;
+    padding:50px;
+    background-color:white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+
+.helipad{
+    margin-left:20px;
+}
